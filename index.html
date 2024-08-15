@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <input type="text" id="pokemon" placeholder="Enter Pokemon">
+    <button id="searchBtn" type="button" onclick="searchPokemon()" >Search</button><br>
+    <img src="" alt="Pokemon img" id="pokemonSprite" style="display: none;">
+    <div class="info-grid">
+      <div class="box">Name: <span id="name"></span></div>
+      <div class="box">Id: <span id="id"></span></div>
+      <div class="box">Height: <span id="height"></span></div>
+      <div class="box">Weight: <span id="weight"></span></div>
+      <div class="box">Type: <span id="type"></span></div>
+      <div class="box">HP: <span id="hp"></span></div>
+      <div class="box">Attack: <span id="attack"></span></div>
+      <div class="box">Defense: <span id="defense"></span></div>
+      <div class="box">Special Attack: <span id="special-attack"></span></div>
+    </div>
+  </div>
+  <script src="pokedex.js"></script>  
+</body>
+</html>

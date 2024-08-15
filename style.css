@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh; 
+    margin: 0;
+    text-align: center; 
+    font-family: "VT323", monospace;
+    font-weight: 500;
+    font-size:1.5rem;
+    font-style: normal;
+}
+
+#container {
+    max-width: 1000px;
+    background-color:brown;
+    padding: 20px; 
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box {
+    background-color: rgb(204, 50, 50);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+#searchBtn {
+    background-color:  rgb(204, 50, 50);
+    border: none;
+    cursor: pointer;
+    padding: 17px;
+    margin: 10px;
+    border-radius: 3px;
+    color: white;
+    font-family: "VT323", monospace;
+}
+
+#searchBtn:hover {
+    background-color: rgb(204, 50, 50);
+}
+
+#pokemon {
+    
+    background-color:  rgb(204, 50, 50);
+    margin: 10px;
+    padding: 17px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+#pokemonSprite {
+    display: block; 
+    margin: 20px auto; 
+}
+
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 10px; 
+}
